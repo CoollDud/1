@@ -27,16 +27,16 @@ namespace _1
 
         private void Calc_B_Click(object sender, RoutedEventArgs e)
         {
-            int number1 = int.Parse(Number1_TB.Text);
+            int number11 = int.Parse(Number1_TB.Text);
             int number2 = int.Parse(Number2_TB.Text);
             int number3 = int.Parse(Number3_TB.Text);
             int poloz=0;
             int otriz=0;
-            if (number1>0)
+            if (number11>0)
             {
                 poloz++;
             }
-            else if(number1<0)
+            else if(number11<0)
             {
                 otriz++;
             }
